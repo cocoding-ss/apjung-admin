@@ -6,6 +6,15 @@
   <router-view />
 </template>
 
+<script>
+export default {
+  name: 'App',
+  created() {
+    console.log(process.env);
+  }
+}
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
