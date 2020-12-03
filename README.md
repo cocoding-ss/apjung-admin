@@ -12,6 +12,7 @@
 3. Merge하고 Slack에서 Notification 보기
   - 머지한 후 몇분 기다리면 빌드 성공여부와 서버 배포여부 알림을 슬랙에서 볼 수 있습니다
   - 보통 2~3분정도 걸립니다
+  
 
 ## Project setup
 ```
