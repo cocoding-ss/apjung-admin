@@ -13,4 +13,5 @@ COPY . .
 
 EXPOSE 8080
 
-CMD [ "npm", "run", "{APP_ENV}"]
+ARG APP_ENV
+CMD [ "npm", "run", "${APP_ENV}"]
